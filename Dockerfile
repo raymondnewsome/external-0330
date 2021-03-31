@@ -1,7 +1,7 @@
 # Use Google base image for NodeJS
 FROM launcher.gcr.io/google/nodejs
 
-# Copy application code.
+# Copy application code. RAY
 COPY . /app/
 
 # Change the working directory
